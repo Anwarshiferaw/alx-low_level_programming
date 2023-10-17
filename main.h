@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -20,3 +21,13 @@ void get_prod(char *prod, char *mult, int digit, int zeroes);
 void add_nums(char *final_prod, char *next_prod, int next_len);
 
 #endif /*MAIN_H*/
+=======
+char *create_array(unsigned int size, char c);
+char *_strdup(char *str);
+char *str_concat(char *s1, char *s2);
+int **alloc_grid(int width, int height);
+void free_grid(int **grid, int height);
+char *argstostr(int ac, char **av);
+char **strtow(char *str);
+#endif
+>>>>>>> aa12f6a73a7cf8d7ccbfd3095486f97fd90776f8
